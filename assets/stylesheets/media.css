@@ -1,0 +1,49 @@
+/* Text Formatting */
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Photo Formatting */
+
+.media-banner {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment:fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Nav Bar Formatting */
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 28px;
+    width: 5%;
+    length: 5%;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 28px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+.topnav a:hover {
+    background-color: #333;
+    color: #D4AF37;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: #D4AF37;
+}

@@ -1,0 +1,102 @@
+/* Text Formatting */
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+table {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 15pt;
+}
+
+td {
+  padding-right: 25px;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+/* Photo Formatting */
+
+.discography-banner {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment:fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Albums Formatting */
+
+.main-album {
+  width: 538px;
+  length: 538px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-1 {
+  width: 130px;
+  length: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-2 {
+  width: 130px;
+  length: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-3 {
+  width: 130px;
+  length: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-4 {
+  width: 130px;
+  length: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.albums {
+  float: left;
+  padding-right: 80px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+/* Nav Bar Formatting */
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 28px;
+    width: 5%;
+    length: 5%;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 28px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+.topnav a:hover {
+    background-color: #333;
+    color: #D4AF37;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: #D4AF37;
+}
