@@ -14,18 +14,112 @@ body {
   width: 100%;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: none;
-    width: 10%;
-    padding: 10px;
+/* Merch Formatting */
+
+.all-merch {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.black-ashtray {
+  width: 20%;
+  length: auto;
+}
+
+.white-ashtray {
+  width: 20%;
+  length: auto;
+}
+
+.black-zippo {
+  width: 20%;
+  length: auto;
+}
+
+.white-zippo {
+  width: 20%;
+  length: auto;
+}
+
+.pink-cap {
+  width: 20%;
+  length: auto;
+}
+
+.black-cap {
+  width: 20%;
+  length: auto;
+}
+
+.white-cap {
+  width: 20%;
+  length: auto;
+}
+
+.beach-towel {
+  width: 20%;
+  length: auto;
+}
+
+.pink-hoodie {
+  width: 20%;
+  length: auto;
+}
+
+.black-hoodie {
+  width: 20%;
+  length: auto;
+}
+
+.grey-hoodie {
+  width: 20%;
+  length: auto;
+}
+
+.white-tshirt {
+  width: 20%;
+  length: auto;
+}
+
+.pink-sweatpants {
+  width: 20%;
+  length: auto;
+}
+
+.black-sweatpants {
+  width: 20%;
+  length: auto;
+}
+
+.grey-sweatpants {
+  width: 20%;
+  length: auto;
+}
+
+.black-tshirt {
+  width: 20%;
+  length: auto;
+}
+
+.white-shirt {
+  width: 20%;
+  length: auto;
+}
+
+.black-shirt {
+  width: 20%;
+  length: auto;
+}
+
+.white-sweatshorts {
+  width: 20%;
+  length: auto;
+}
+
+.black-sweatshorts {
+  width: 20%;
+  length: auto;
 }
 
 /* Nav Bar Formatting */
