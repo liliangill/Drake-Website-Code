@@ -9,19 +9,16 @@ body {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 15pt;
 }
 
 h1 {
   text-align: center;
-  font-size: 30pt;
 }
 
 .drake-highlights {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   padding-left: 30%;
-  font-size: 15pt;
 }
 
 /* Picture Formatting */
@@ -38,7 +35,7 @@ h1 {
   float: left;
   padding-right: 50px;
   padding: 20px;
-  width: 15%;
+  width: 20%;
   length: auto;
 }
 
@@ -46,7 +43,7 @@ h1 {
   float: right;
   padding-left: 50px;
   padding: 20px;
-  width: 18%;
+  width: 25%;
   length: auto;
 }
 
@@ -54,7 +51,7 @@ h1 {
   float: left;
   padding-right: 50px;
   padding: 20px;
-  width: 18%;
+  width: 25%;
   length: auto;
 }
 
