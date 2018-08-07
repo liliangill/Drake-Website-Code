@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+.drake-image-overlay {
+  position: absolute;
+  z-index: 1;
+  background: url(./assets/images/banner-homepage-clear.png);
+}
+
 /* Nav Bar Formatting */
 
 .logo-img {
