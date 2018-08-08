@@ -17,7 +17,6 @@ body {
 .drake-image-overlay {
   position: absolute;
   z-index: 1;
-  background: url(./assets/images/banner-homepage-clear.png);
 }
 
 /* Nav Bar Formatting */
