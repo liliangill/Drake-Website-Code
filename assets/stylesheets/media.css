@@ -26,6 +26,14 @@ body {
   box-shadow: 0 45px 100px rgba(0,0,0,0.5);
 }
 
+/* Video Formatting */
+
+.drake-video {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 20px;
+}
+
 /* Nav Bar Formatting */
 
 .logo-img {
