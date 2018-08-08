@@ -16,6 +16,11 @@ body {
 
 /* Merch Formatting */
 
+.merch-all {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .black-ashtray {
   width: 15%;
   length: auto;
