@@ -14,11 +14,6 @@ body {
   width: 100%;
 }
 
-.drake-image-overlay {
-  position: absolute;
-  z-index: 1;
-}
-
 /* Nav Bar Formatting */
 
 .logo-img {
