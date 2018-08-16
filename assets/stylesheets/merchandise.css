@@ -14,141 +14,67 @@ body {
   width: 100%;
 }
 
-/* Merch Formatting */
+/* Filter Formatting*/
 
-.merch-all {
-  margin-left: 10%;
-  margin-right: 10%;
-}
+  #myBtnContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+  }
 
-.black-ashtray {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  .container {
+      overflow: hidden;
+  }
 
-.white-ashtray {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  .filterDiv {
+      float: left;
+      color: #ffffff;
+      width: 100px;
+      line-height: 100px;
+      text-align: center;
+      margin: 2px;
+      display: none; /* Hidden by default */
+  }
 
-.black-zippo {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  /* The "show" class is added to the filtered elements */
+  .show {
+      display: block;
+  }
 
-.white-zippo {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin: 0 10px;
+  }
 
-.pink-cap {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
 
-.black-cap {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.white-cap {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.beach-towel {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.pink-hoodie {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.black-hoodie {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.grey-hoodie {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.white-tshirt {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.pink-sweatpants {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.black-sweatpants {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.grey-sweatpants {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.black-tshirt {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.white-shirt {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.black-shirt {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.white-sweatshorts {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
-
-.black-sweatshorts {
-  width: 20%;
-  length: auto;
-  padding: 20px;
-}
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
 
 /* Nav Bar Formatting */
 
 .logo-img {
     float: left;
     position: relative;
-    margin: 10px 28px;
-    width: 5%;
-    length: 5%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 3%;
+    length: auto;
 }
 
 .topnav {

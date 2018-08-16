@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/stylesheets/lightbox.min.css" />
+  <link rel="stylesheet" href="./assets/stylesheets/merchandise.css" />
   <link href="./assets/stylesheets/merchandise.css" rel="stylesheet" type="text/css"/>
 </head>
 
@@ -25,77 +26,134 @@
 
   <img class="merchandise-banner" src="./assets/images/banner-merchandise.jpg" alt="merchandise banner"></img>
 
+  <div id="myBtnContainer">
+    <button class="btn" onclick="filterSelection('all')"> All</button>
+    <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
+    <button class="btn" onclick="filterSelection('caps')"> Caps</button>
+    <button class="btn" onclick="filterSelection('hoodies')"> Hoodies</button>
+    <button class="btn" onclick="filterSelection('pants')"> Pants</button>
+    <button class="btn" onclick="filterSelection('shirts')"> Shirts</button>
+    <button class="btn" onclick="filterSelection('shorts')"> Shorts</button>
+  </div>
+
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-ashtray" src="./assets/images/merch-black-ashtray.png" alt="black ashtray"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-ashtray" src="./assets/images/merch-white-ashtray.png" alt="white ashtray"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-zippo" src="./assets/images/merch-black-zippo.png" alt="black zippo"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-zippo" src="./assets/images/merch-white-zippo.png" alt="white zippo"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="pink-cap" src="./assets/images/merch-pink-cap.png" alt="pink cap"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-cap" src="./assets/images/merch-black-cap.png" alt="black cap"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-cap" src="./assets/images/merch-white-cap.png" alt="white cap"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="beach-towel" src="./assets/images/merch-beach-towel.png" alt="beach towel"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="pink-hoodie" src="./assets/images/merch-pink-hoodie.png" alt="pink hoodie"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-hoodie" src="./assets/images/merch-black-hoodie.png" alt="black hoodie"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="grey-hoodie" src="./assets/images/merch-grey-hoodie.png" alt="grey hoodie"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-tshirt" src="./assets/images/merch-white-tshirt.png" alt="white tshirt"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="pink-sweatpants" src="./assets/images/merch-pink-sweatpants.png" alt="pink sweatpants"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-sweatpants" src="./assets/images/merch-black-sweatpants.png" alt="black sweatpants"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="grey-sweatpants" src="./assets/images/merch-grey-sweatpants.png" alt="grey sweatpants"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-tshirt" src="./assets/images/merch-black-tshirt.png" alt="black tshirt"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-shirt" src="./assets/images/merch-white-shirt.png" alt="white shirt"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-shirt" src="./assets/images/merch-black-shirt.png" alt="black shirt"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="white-sweatshorts" src="./assets/images/merch-white-sweatshorts.png" alt="white sweatshorts"></img>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <img class="black-sweatshorts" src="./assets/images/merch-black-sweatshorts.png" alt="black sweatshorts"></img>
-      </div>
+    <div class="filterDiv accessories">
+      <img class="merch-items" src="./assets/images/merch-black-ashtray.png" alt="black ashtray"></img>
+    </div>
+    <div class="filterDiv accessories">
+      <img class="merch-items" src="./assets/images/merch-white-ashtray.png" alt="white ashtray"></img>
+    </div>
+    <div class="filterDiv accessories">
+      <img class="merch-items" src="./assets/images/merch-black-zippo.png" alt="black zippo"></img>
+    </div>
+    <div class="filterDiv accessories">
+      <img class="merch-items" src="./assets/images/merch-white-zippo.png" alt="white zippo"></img>
+    </div>
+    <div class="filterDiv caps">
+      <img class="merch-items" src="./assets/images/merch-pink-cap.png" alt="pink cap"></img>
+    </div>
+    <div class="filterDiv caps">
+      <img class="merch-items" src="./assets/images/merch-black-cap.png" alt="black cap"></img>
+    </div>
+    <div class="filterDiv caps">
+      <img class="merch-items" src="./assets/images/merch-white-cap.png" alt="white cap"></img>
+    </div>
+    <div class="filterDiv accessories">
+      <img class="merch-items" src="./assets/images/merch-beach-towel.png" alt="beach towel"></img>
+    </div>
+    <div class="filterDiv hoodies">
+      <img class="merch-items" src="./assets/images/merch-pink-hoodie.png" alt="pink hoodie"></img>
+    </div>
+    <div class="filterDiv hoodies">
+      <img class="merch-items" src="./assets/images/merch-black-hoodie.png" alt="black hoodie"></img>
+    </div>
+    <div class="filterDiv hoodies">
+      <img class="merch-items" src="./assets/images/merch-grey-hoodie.png" alt="grey hoodie"></img>
+    </div>
+    <div class="filterDiv shirts">
+      <img class="merch-items" src="./assets/images/merch-white-tshirt.png" alt="white tshirt"></img>
+    </div>
+    <div class="filterDiv pants">
+      <img class="merch-items" src="./assets/images/merch-pink-sweatpants.png" alt="pink sweatpants"></img>
+    </div>
+    <div class="filterDiv pants">
+      <img class="merch-items" src="./assets/images/merch-black-sweatpants.png" alt="black sweatpants"></img>
+    </div>
+    <div class="filterDiv pants">
+      <img class="merch-items" src="./assets/images/merch-grey-sweatpants.png" alt="grey sweatpants"></img>
+    </div>
+    <div class="filterDiv shirts">
+      <img class="merch-items" src="./assets/images/merch-black-tshirt.png" alt="black tshirt"></img>
+    </div>
+    <div class="filterDiv shirts">
+      <img class="merch-items" src="./assets/images/merch-white-shirt.png" alt="white shirt"></img>
+    </div>
+    <div class="filterDiv shirts">
+      <img class="merch-items" src="./assets/images/merch-black-shirt.png" alt="black shirt"></img>
+    </div>
+    <div class="filterDiv shorts">
+        <img class="merch-items" src="./assets/images/merch-white-sweatshorts.png" alt="white sweatshorts"></img>
+    </div>
+    <div class="filterDiv shorts">
+      <img class="merch-items" src="./assets/images/merch-black-sweatshorts.png" alt="black sweatshorts"></img>
     </div>
   </div>
 
-      <script
-          src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          crossorigin="anonymous"></script>
-        <script src="./assets/javascripts/lightbox.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascripts/lightbox.min.js"></script>
 
-</body>
+
+    <script>
+        filterSelection("all")
+    function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+    }
+
+    // Show filtered elements
+    function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+    }
+    }
+
+    // Hide elements that are not selected
+    function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+    }
+    element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    });
+    }
+</script>
 
 </html>
