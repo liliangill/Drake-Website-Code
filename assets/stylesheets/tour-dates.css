@@ -12,6 +12,7 @@ body {
   background-attachment:fixed;
   background-size: cover;
   width: 100%;
+  padding-bottom: 2%;
 }
 
 /* Tour Dates List Formatting */
@@ -70,8 +71,8 @@ td {
     float: left;
     position: relative;
     width: 5%;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     length: auto;
 }

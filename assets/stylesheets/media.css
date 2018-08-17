@@ -84,13 +84,12 @@ h1 {
 
 /* Nav Bar Formatting */
 
-
 .logo-img {
     float: left;
     position: relative;
     width: 5%;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     length: auto;
 }
