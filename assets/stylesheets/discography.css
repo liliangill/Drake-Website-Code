@@ -18,6 +18,10 @@ h1 {
   font-size: 30pt;
 }
 
+h4 {
+  color: grey;
+}
+
 /* Photo Formatting */
 
 .discography-banner {
