@@ -69,9 +69,10 @@ td {
 .logo-img {
     float: left;
     position: relative;
-    width: 3%;
-    padding-left: 10px;
-    padding-top: 15px;
+    width: 5%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     length: auto;
 }
 
@@ -84,9 +85,9 @@ td {
   float: left;
   color: white;
   text-align: center;
-  padding: 20px 28px;
+  padding: 25px 28px;
   text-decoration: none;
-  font-size: 15pt;
+  font-size: 18pt;
 }
 
 .topnav a:hover {
