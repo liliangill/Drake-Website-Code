@@ -69,11 +69,9 @@ td {
 .logo-img {
     float: left;
     position: relative;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
     width: 3%;
+    padding-left: 10px;
+    padding-top: 15px;
     length: auto;
 }
 
