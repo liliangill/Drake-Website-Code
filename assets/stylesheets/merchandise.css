@@ -59,8 +59,13 @@ body {
   margin: 0 10px;
 }
 
+.btn active {
+  background-color: black;
+  color: #D4AF37;
+}
+
 .btn:hover {
-  background-color: #333;
+  background-color: black;
   color: #D4AF37;
 }
 
