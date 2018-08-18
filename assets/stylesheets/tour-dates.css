@@ -24,19 +24,6 @@ table {
   width: 75%;
 }
 
-table a {
-  font-family: 'Poppins', sans-serif;
-  background-color: #D4AF37;
-  border-radius: 15px;
-  color: black;
-  padding: 20px 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 4px 2px;
-  font-size: 25px;
-  font-weight: bold;
-}
-
 td {
   padding-left: 10px;
   padding-bottom: 50px;
@@ -75,6 +62,24 @@ th {
 .stacked-location {
   font-size: 35px;
   color: #333;
+}
+.venue-link {
+  font-size: 25px;
+  color: grey;
+  text-decoration: underline;
+}
+
+.purchase-button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #D4AF37;
+  border-radius: 15px;
+  color: black;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /* Nav Bar Formatting */
