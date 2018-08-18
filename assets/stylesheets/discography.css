@@ -36,8 +36,9 @@ h4 {
 /* Albums Formatting */
 
 .main-album {
-  width: 538px;
-  length: 538px;
+  width: 536px;
+  length: 536px;
+  margin-bottom: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
