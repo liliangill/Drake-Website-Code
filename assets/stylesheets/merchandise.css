@@ -15,9 +15,11 @@ body {
 }
 
 .merch-items {
-  padding-left: 50%;
-  padding-right: 50%;
-  width: 300%;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
   length: auto;
 }
 
@@ -36,11 +38,11 @@ body {
 }
 
 .filterDiv {
-  float: left;
+  /* float: left;
   width: 100px;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
+  margin: 2px; */
   display: none;
 }
 
